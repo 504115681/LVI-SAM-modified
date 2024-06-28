@@ -9,7 +9,7 @@ git clone git@github.com:MIT-SPARK/TEASER-plusplus.git -b feature/pcl-matcher
 cd TEASER-plusplus
 mkdir build
 cd build
-cmake -DBUILD_TEASER_FPFH=ON..
+cmake -DBUILD_TEASER_FPFH=ON ..
 make
 sudo make install
 ```
